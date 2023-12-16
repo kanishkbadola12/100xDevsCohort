@@ -5,6 +5,18 @@
  */
 
 function sleep(milliseconds) {
-}
+    if (n > 0) {
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                resolve();
+            }, milliseconds)
+        })
+    } else {
+        return new Promise((resolve, reject) => {
+            reject('Please provide a valid input')
+        });
+    }
+    
+  };
 
 module.exports = sleep;
