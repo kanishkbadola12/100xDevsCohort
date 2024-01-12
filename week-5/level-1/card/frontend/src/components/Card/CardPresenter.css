@@ -1,0 +1,121 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.interests > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #555;
+}
+
+.interests > div > span:not(:last-child)::after {
+    content: '•';
+    margin-left: 25px;
+    color: #777;
+  }
+
+.interests > h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.social-media {
+    display: flex;
+    margin-left: -5px;
+}
+
+.action-buttons > * {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-buttons > * {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.save-button {
+    color: white;
+    background-color: #4caf50;
+}
+
+.cancel-button {
+    color: white;
+    background-color: #DD4F5E;
+}
+
+.delete-button {
+    color:#DD4F5E
+}
+
+.edit-button {
+    color: #0096D6
+}
+
+.editable-field {
+    padding: 8px;
+}
+
+.edit-operation {
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 20px;
+}

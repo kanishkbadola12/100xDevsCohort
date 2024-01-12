@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.icon-image {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}

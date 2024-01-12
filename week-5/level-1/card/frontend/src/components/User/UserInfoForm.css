@@ -1,0 +1,33 @@
+.user-info-form {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+}
+
+.footer-buttons {
+    margin:0 auto;
+    display:block;
+    width: 30%;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-card {
+    background-color: #4caf50;
+}
+
+.clear-form {
+    background-color: #DD4F5E;
+}
