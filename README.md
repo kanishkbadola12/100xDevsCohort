@@ -150,5 +150,3 @@ Hint:  In react we have a root element, here you have to create a HTML element a
 ## Question.5 Create a OTP Login in reactJS.
 Hint: you have seen Login via OTP on some sort of site like: hotstar etc. you have to build that. here is the basic prototype/design
 Note: suppose that if user enter first digit of OTP, so cursor will automatically jump to the second digit.
-
-## Question.6 Create a birthday wisher site which takes a name of a person and render 2-3 birthday wish cards.
