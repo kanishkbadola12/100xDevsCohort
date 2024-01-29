@@ -1,0 +1,42 @@
+input, textarea {
+  width: 70%;
+  border: 1px solid silver;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+button {
+  width: 20%;
+  border: 1px solid silver;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.para-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.action-items {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.paragraphs {
+  height: 40vh;
+}

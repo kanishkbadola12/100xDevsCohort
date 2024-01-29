@@ -126,3 +126,29 @@ You have to create a simple React App which has a reusable Card Component which 
     - Create a page where you can add these kind of Cards by taking input from the user
     - Create a backend server where these cards get stored in a DB and can handle basic CRUD operations
     - Give the feature to perform CRUD operations from the frontend (Can be restricted to the admin only as well)
+
+# Week 6
+## React hook assignments
+You will find a bunch of folders this week, each with some set of assignments for a specific hook
+Go to the folder (for example 1-use-memo) and comment out the Assignment component you are working on (Assignment1/Assignment2...) and try to solve it
+There are no tests, but solution videos will be provided
+
+# Week 7
+## Question.1 Create a profile component in reactJS.
+Using  https://api.github.com/users/${username} API render your GitHub information as your GitHub info Card.
+
+## Question.2 Create a background changer in reactJS 
+
+## Question.3 Create a profile component in reactJS.
+Hint:  In react we have a root element, here you have to create a HTML element and using JS render anchor tag.
+  - Create an object for react element that has html anchor data
+  - Create a function that generates html code from reactElement and returns the final html tag
+  - Create a function customRender that takes in the object and the path of html where it will be rendered
+
+## Question.4 Create a paragraph generator which takes length of words in paragraph and generate paragraph.
+
+## Question.5 Create a OTP Login in reactJS.
+Hint: you have seen Login via OTP on some sort of site like: hotstar etc. you have to build that. here is the basic prototype/design
+Note: suppose that if user enter first digit of OTP, so cursor will automatically jump to the second digit.
+
+## Question.6 Create a birthday wisher site which takes a name of a person and render 2-3 birthday wish cards.
