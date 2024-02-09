@@ -150,3 +150,44 @@ Hint:  In react we have a root element, here you have to create a HTML element a
 ### Question.5 Create a OTP Login in reactJS.
 Hint: you have seen Login via OTP on some sort of site like: hotstar etc. you have to build that. here is the basic prototype/design
 Note: suppose that if user enter first digit of OTP, so cursor will automatically jump to the second digit.
+
+# Week 10
+## Assignment 1:
+### Simple SQL queries practise.
+
+In this assignment, you'll be writing a bunch of SQL queries to interact with your postgres database.
+
+### Pre-requisites
+Before you start, please grab a Postgres URL from either of the following - 
+ - https://neon.tech/
+ - https://aiven.io/
+
+and put it in config.ts
+
+### Assignment
+You are supposed to write the `database` part of an full stack app. 
+Specifically, you need to fill the functions in 
+ - src/db/user.ts
+ - src/db/todo.ts
+
+### Testing
+Run `npm run test` to run all the tests
+
+## Assignment 2:
+### Prisma Assignment
+Same as the last assignment, but you need to use `prisma` as the ORM.
+
+### Pre-requisites
+1. Checkout `prisma/schema.prisma` and see the initial schema that has been created.
+2. Replace `db.url` with your database URL.
+3. Run the following commands to migrate your database - 
+```js
+    npx prisma migrate dev
+    npx prisma generate
+```
+
+### Assignment
+You need to fill the db/user.ts and db/todos.ts using the `prisma` client to put in the data
+
+### Testing
+Run `npm run test` to run all the tests
